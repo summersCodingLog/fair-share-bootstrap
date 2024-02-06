@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FairShare</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <section id="title" class="title-color">
+        <nav class="py-2 bg-body-tertiary border-bottom">
+            <div class="container d-flex flex-wrap">
+                <ul class="nav me-auto">
+                    <li class="nav-item"><a href="./index.html" class="nav-link link-body-emphasis px-2 active"
+                            aria-current="page">Home</a></li>
+                    <li class="nav-item"><a href="./receipts.html" class="nav-link link-body-emphasis px-2">Reciepts</a>
+                    </li>
+                    <li class="nav-item"><a href="./friends.html" class="nav-link link-body-emphasis px-2">Friends</a>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">FAQs</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">About</a></li>
+                </ul>
+                <ul class="nav">
+                    <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Login</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Sign up</a></li>
+                </ul>
+            </div>
+        </nav>
+        <header class="py-3 mb-4 border-bottom">
+            <div class="container d-flex flex-wrap justify-content-center">
+                <a href="/"
+                    class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32"></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="currentColor"
+                        class="bi bi-ban-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M2.71 12.584q.328.378.706.707l9.875-9.875a7 7 0 0 0-.707-.707l-9.875 9.875Z">
+                        </path>
+                    </svg>
+                    <span class="fs-4">Fair Share</span>
+                </a>
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+                    <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                </form>
+            </div>
+        </header>
+    </section>
+
+    <section id="pieChart">
+        <div class="pieContainer">
+            <div class="pieBackground"></div>
+            <div id="pieSlice1" class="hold">
+                <div class="pie"></div>
+            </div>
+            <div id="pieSlice2" class="hold">
+                <div class="pie"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="col-lg-6 col-xxl-4 my-5 mx-auto">
+        <div class="d-grid gap-2">
+            <button class="btn btn-primary" type="button">Add an Reciepts</button>
+        </div>
+    </div>
+
+    <div class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center">
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32"
+                    class="rounded-circle flex-shrink-0">
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                        <h6 class="mb-0">Trader Joe's</h6>
+                        <p class="mb-0 opacity-75">Shared with Leap</p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">$ -49.99</small>
+                </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32"
+                    class="rounded-circle flex-shrink-0">
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                        <h6 class="mb-0">Another title here</h6>
+                        <p class="mb-0 opacity-75">Some placeholder content in a paragraph that goes a little longer so
+                            it wraps to a new line.</p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">3d</small>
+                </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32"
+                    class="rounded-circle flex-shrink-0">
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                        <h6 class="mb-0">Third heading</h6>
+                        <p class="mb-0 opacity-75">Some placeholder content in a paragraph.</p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">1w</small>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
